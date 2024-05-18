@@ -1,0 +1,134 @@
+@media (max-width: 700px) {
+  h1 {
+    font-size: 100px;
+  }
+}
+@media (min-width: 700px) {
+  .Blog {
+    margin-top: 200px;
+  }
+}
+@media (min-width: 700px) {
+  .Service {
+    margin-bottom: 200px;
+  }
+}
+#Nav {
+  background-color: rgba(204, 204, 255, 50%);
+}
+
+.nav-link {
+  color: #000;
+}
+
+.carousel-inner img {
+  width: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(204, 204, 255, 50%);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev-icon {
+  left: -10px;
+}
+
+.carousel-control-next-icon {
+  right: -10px;
+}
+
+@media (max-width: 992px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 15%;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 20%;
+  }
+}
+
+#S1,
+#S1-card {
+  transition: 0.5s;
+}
+#S1:hover {
+  background-color: #ccccff;
+}
+#S1-card:hover {
+  box-shadow: 2px 5px 10px #ccccff;
+}
+
+#S2,
+#S2-card {
+  transition: 0.5s;
+}
+#S2:hover {
+  background-color: #ffdb58;
+}
+#S2-card:hover {
+  box-shadow: 2px 5px 10px #ffdb58;
+}
+
+#S3,
+#S3-card {
+  transition: 0.5s;
+}
+#S3:hover {
+  background-color: #8c92ac;
+}
+#S3-card:hover {
+  box-shadow: 2px 5px 10px #8c92ac;
+}
+
+#S4,
+#S4-card {
+  transition: 0.5s;
+}
+#S4:hover {
+  background-color: #99edc3;
+}
+#S4-card:hover {
+  box-shadow: 2px 5px 10px #99edc3;
+}
+.card-text {
+  font-size: 14px;
+}
+#Testi {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+label {
+  font-size: 13px;
+}
+.c-1,
+.c-2,
+.c-3 {
+  transition: 0.6s;
+}
+.c-1:hover {
+  box-shadow: 1px 2px 10px red;
+}
+.c-2:hover {
+  box-shadow: 1px 2px 10px lightskyblue;
+}
+.c-3:hover {
+  box-shadow: 1px 2px 10px gray;
+}
